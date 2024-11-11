@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://ew.com/thmb/IVjmtfkRu2ZP4GDYmiFkPUe7yTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Weeknd-d4fb08e62a924691a18af068d9bfa972.jpg"); /* The image used */
+    background-position: low; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+  }
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+table, th, td{
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+table{margin-left: auto;
+  margin-right: auto;
+width: 28%}
